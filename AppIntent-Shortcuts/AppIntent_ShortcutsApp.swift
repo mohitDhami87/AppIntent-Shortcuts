@@ -12,6 +12,7 @@ struct AppIntent_ShortcutsApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .modelContainer(for: Memory.self)
         }
     }
 }
